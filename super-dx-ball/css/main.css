@@ -1,0 +1,110 @@
+/* In the name of Allah, the Most Gracious, Most Merciful */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5rem; /* 1.5rem = 24px */
+  color: rgb(234, 234, 234);
+  background-color: rgb(35, 35, 35);
+}
+
+ul {
+  line-height: 2.7rem;
+}
+
+p {
+  line-height: 2.7rem;
+  padding: 0.3rem 0;
+}
+
+p ul {
+  margin-top: -3rem;
+}
+
+#wrapper {
+  width: 90%;
+  margin: auto; /* used for centering the element */
+  color: rgb(12, 12, 12);
+  background-color: rgb(236, 238, 242);
+  padding: 0.5em 3em; /* padding direction order: 'top right bottom left' or 'top-bottom right-left' */
+  border-radius: 7px;
+}
+
+header {
+  border: 3px solid rebeccapurple;
+  box-shadow: 5px 3px 33px #3207344e; /* 5px h-offset, 3px v-offset, 33px blur-radius */
+  border-radius: 30px;
+  padding: 0.3em;
+  margin: 1em 0 3em 0; /* Left and right margins are zero */ 
+  background-color: rgb(230, 227, 238);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items:center;
+}
+
+header h1 {
+  margin-bottom: -0.3rem;
+}
+
+nav ul {
+  list-style-type: none;
+  line-height: 1.7rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 3rem;
+  font-weight: 700;
+  border-top: solid black;
+  padding-top: 0.3rem;
+  padding-left: 0;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3.3rem;
+  color: rgb(52, 26, 78);
+  text-align: center;
+  text-shadow: 3px 3px 1px rgb(12, 12, 12, 0.3);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(7, 52, 78);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: brown;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgba(7, 52, 78);
+  /* background-color: bisque; */ /* currently disabled */
+}
+
+img {
+  margin: auto;
+  display: block;
+  box-shadow: 5px 3px 13px rgb(12, 12, 12, 0.3); /* This time, we're using rgb (instead of hex) to assign color & transparency */
+}
+
+
+#site-footer {
+  text-align: right;
+  border-top: 3px solid;
+  margin-top: 3em;
+}
